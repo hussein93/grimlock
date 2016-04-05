@@ -1,0 +1,23 @@
+<aiml version="1.0.1" encoding="UTF-8">
+
+<meta name="author" content="Hussein Abou Nassif"/>
+<meta name="language" content="en"/>
+
+<category>
+    <pattern>Where should we eat *</pattern>
+    <template>
+        <random>
+            <li>Tiger Mama.</li>
+            <li>Panera Bread.</li>
+            <li>Wahlburgers.</li>
+            <li>Basho.</li>
+            <li>Thaitation.</li>
+            <li>Tasty Burger.</li>
+            <li>Thornton's Fenway Grill.</li>
+            <li>Taco by Crepe Place.</li>
+            <li>Copley?</li>
+            <li>Cambridge Sushi.</li>
+            <li>Copley Sushi.</li>
+        </random>
+    </template>
+</category>
