@@ -12,6 +12,7 @@ kernel.respond('load aiml b')
 def main():
     """Main entry point for the script."""
     user = pwd.getpwuid(os.getuid()).pw_name
+    bot_name = 'Grimlock'
 
     # Interaction with Grimlock
     while True:
@@ -22,7 +23,7 @@ def main():
             print('Grimlock will remember this conversation.')
             #kernel.saveBrain('bot_brain.brn')
         else:
-            print('Still in production')
+            print(bot_name + '> I\'m still in production!')
             #bot_response = kernel.respond(message)
 
 if __name__ == '__main__':
