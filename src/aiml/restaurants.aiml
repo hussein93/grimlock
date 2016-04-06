@@ -1,0 +1,35 @@
+<aiml version="1.0.1" encoding="UTF-8">
+<!-- basic_chat.aiml -->
+
+    <category>
+        <pattern>FOOD</pattern>
+        <template>
+            <random>
+                <li>Panera Bread.</li>
+                <li>Tasty Burger.</li>
+                <li>Basho.</li>
+                <li>Yard House.</li>
+                <li>Cook something at home!</li>
+                <li>Reginas.</li>
+                <li>Tacos.</li>
+                <li>Thorntons Fenway Grill.</li>
+                <li>Thaitation.</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HELLO</pattern>
+        <template>
+            Hey there!
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT ARE YOU</pattern>
+        <template>
+            You know what I am, you created me...
+        </template>
+    </category>
+
+</aiml>
