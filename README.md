@@ -1,6 +1,8 @@
 Project created to create a Python AI bot called 'Grimlock'
 
 Installation:
-  * pip install rivescript
-  * Manually download/clone https://github.com/aichaos/rivescript-python and
-    run 'python setup.py install'
+  * pip install aiml
+
+Usage:
+  * cd into the aiml directory, and run the following
+  * command 'python grimlock.py'
