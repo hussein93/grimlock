@@ -1,12 +1,8 @@
 """ Script for the AI Bot called Grimlock """
 import sys
 import os, pwd
-import pdb
-import aiml
 
-# Create the kernel and learn AIML files
-kernel = aiml.Kernel()
-kernel.learn('aiml/restaurants.aiml')
+from train.transit import process_command
 
 def main():
     """Main entry point for the script."""
@@ -22,8 +18,7 @@ def main():
             print('Grimlock will remember this conversation.')
             #kernel.saveBrain('bot_brain.brn')
         else:
-            #print(bot_name + '> I\'m still in production!')
-            bot_response = kernel.respond(message)
+            bot_response = process_command(message)
             print bot_response
 
 if __name__ == '__main__':
